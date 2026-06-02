@@ -1,1 +1,9 @@
 # f2dace-qe-source
+
+This repo contains source files for `pw.x` of Quantum Espresso (`develop` branch as of April 2026).
+
+All preprocessed files to be ingested are in `src_f90_to_parse/`.
+
+The script `run.sh` contains the execution script used in the previous fparser-based frontend. This script attempts pruning for the selected top subroutine `vexx_b_k_gpu`.
+
+The resulting checkpoint (before errors are thrown) is in `./ckpt/ast_v1_vexx_bp_k_gpu.f90`.
