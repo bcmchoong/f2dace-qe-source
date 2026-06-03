@@ -6,4 +6,7 @@ All preprocessed files to be ingested are in `src_f90_to_parse/`.
 
 The script `run.sh` contains the execution script used in the previous fparser-based frontend. This script attempts pruning for the selected top subroutine `vexx_b_k_gpu`.
 
+The original fparser AST constructed is `./ckpt/ast_v0.f90`.
+
 The resulting checkpoint (before errors are thrown) is in `./ckpt/ast_v1_vexx_bp_k_gpu.f90`.
+
