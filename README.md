@@ -10,3 +10,8 @@ The original fparser AST constructed is `./ckpt/ast_v0.f90`.
 
 The resulting checkpoint (before errors are thrown) is in `./ckpt/ast_v1_vexx_bp_k_gpu.f90`.
 
+## Examples
+Code examples of specific cases are in `./examples/`.
+
+Example of EXTERNAL: The function `local_kpoint_index` (found in `divide_et_impera.f90`) is referenced in multiple subroutines in `exx_bp.f90`.
+
